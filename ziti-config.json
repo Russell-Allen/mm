@@ -1,0 +1,40 @@
+{
+  "controller": {
+    "api": "https://cb2c8d5d-e747-4292-ad8e-e82eb35a3087-p.production.netfoundry.io:443/edge/client/v1"
+  },
+  "httpAgent": {
+    "self": {
+      "scheme": "https",
+      "host": "browzermost-staging.ziti.netfoundry.io",
+      "port": "443"
+    },
+    "target": {
+      "port": "80",
+      "service": "browzercurt.tools.netfoundry.io",
+      "path": "/",
+      "scheme": "http"
+    },
+    "corsProxy": {
+      "hosts": "undefined"
+    },
+    "domProxy": {
+      "hosts": "undefined"
+    }
+  },
+  "browzer": {
+    "sw": {
+      "location": "ziti-browzer-sw.js",
+      "version": "0.20.0",
+      "logLevel": "silent"
+    },
+    "runtime": {
+      "src": "browzermost-staging.ziti.netfoundry.io/ziti-browzer-runtime-65a5f03f.js",
+      "logLevel": "silent",
+      "hotKey": "alt+f12"
+    }
+  },
+  "idp": {
+    "host": "dev-y2uumns3ygr6pf8c.us.auth0.com",
+    "clientId": "tN0NRh54eA1a0CuUJitxwthlqqgu8xO8"
+  }
+}
